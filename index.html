@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lava Runners</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Lava Runners</h1>
+            <button onclick="showPage('home')">Home</button>
+            <button onclick="showPage('products')">About Us</button>
+            <button onclick="showPage('subscriptions')">Discord</button>
+            <button onclick="showPage('contact')">Contact</button>
+        </div>
+        <div class="content">
+            <div id="home" class="page active">
+                <h2>Welcome to Lava Runners!</h2>
+                <p>We are an offical gorilla tag copy, with a lot of customization and surprises.</p>
+                <img src="lavarunners.png" alt="Welcome Image">
+            </div>
+            <div id="products" class="page">
+                <h2>About Us</h2>
+                <p>We have found our own way to make ourselves unique</p>
+                <ul>
+                    <li>Public Applab</li>
+                    <li>Cool Owner: Cyclone</li>
+                    <li>Full customization</li>
+                    <li>Old Gorilla Tag Update</li>
+                </ul>
+                <img src="LavaRunnerGame.png" alt="Products Image">
+            </div>
+            <div id="subscriptions" class="page">
+                <h2>Discord</h2>
+                <p>Choose from our flexible subscription plans to get the most out of our services:</p>
+                <button class="subscription-button"  onclick="window.location.href='https://discord.gg/lavarunners'">Click To Join: Lava Runners.</button>
+                <img src="Discord.png" alt="Subscriptions Image">
+            </div>
+            <div id="contact" class="page">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Reach out to us through the following channels:</p>
+                <ul>
+                    <li>Email: erm idk</li>
+                    <li>Cyclones User: vall4619</li>
+                    <li>Speedys User: speedy.dll</li>
+                </ul>
+                <img src="Call.png" alt="Contact Image">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Lava Runners. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
